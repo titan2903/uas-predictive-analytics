@@ -1,0 +1,24 @@
+# Whitelist: hanya output yang diminta panduan UAS (3.3) + file agar notebook reproducible.
+# Semua yang lain (docs/ panduan, planning/, .claude/, AGENTS.md, CLAUDE.md, sumber deck, figures/) tidak di-push.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+
+# Deliverable 1: notebook analisis (.ipynb sumber yang dijalankan)
+!/notebook/
+/notebook/*
+!/notebook/*.ipynb
+/notebook/.ipynb_checkpoints/
+
+# Deliverable 1 & 2: file final dengan nama resmi (.ipynb, .html, deck .pdf berisi slide AI disclosure)
+!/submission/
+/submission/*
+!/submission/UAS_PA_*_Notebook.ipynb
+!/submission/UAS_PA_*_Notebook.html
+!/submission/UAS_PA_*_Deck.pdf
+
+# Dataset resmi PA-1A (publik), dibutuhkan untuk Restart & Run All
+!/data/
+/data/*
+!/data/1A_telco_customer_churn.csv
