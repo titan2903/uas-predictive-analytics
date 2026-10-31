@@ -60,4 +60,4 @@ Hasilnya reproducible: `RANDOM_STATE = 42` dipakai di semua split, model, dan se
 
 ## Catatan penggunaan AI
 
-Bantuan AI (Claude Code) dipakai untuk menyusun kode, merapikan teks, dan melakukan review. Rinciannya, beserta cara verifikasi setiap bagian, ada di slide lampiran A1 pada deck.
+Bantuan AI (Claude Code) dipakai untuk menyusun beberapa kode, merapikan teks, dan melakukan review. Rinciannya, beserta cara verifikasi setiap bagian, ada di slide lampiran A1 pada deck.
