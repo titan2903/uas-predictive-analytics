@@ -60,4 +60,4 @@ Hasilnya reproducible: `RANDOM_STATE = 42` dipakai di semua split, model, dan se
 
 ## Catatan penggunaan AI
 
-Bantuan AI (Claude Code) dipakai untuk menyusun beberapa kode, merapikan teks, dan melakukan review. Rinciannya, beserta cara verifikasi setiap bagian, ada di slide lampiran A1 pada deck.
+Kode notebook dibangun dengan bantuan Claude Code, yang juga menyusun draf awal insight dan deck, merapikan teks, dan melakukan review. Saya memilih dataset dan arah project, memeriksa dan menyetujui asumsi bisnis serta keputusan model final, mencocokkan angka di insight dan deck dengan output notebook, serta menilai temuan review dan memutuskan revisinya. Insight di bagian 12 sampai 15 dan 19 saya tulis ulang sendiri, lalu dicek ketepatan angkanya dengan bantuan AI. Rincian per bagian beserta cara verifikasinya ada di slide lampiran A1 pada deck.
