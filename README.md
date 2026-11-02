@@ -60,4 +60,19 @@ Hasilnya reproducible: `RANDOM_STATE = 42` dipakai di semua split, model, dan se
 
 ## Catatan penggunaan AI
 
-Kode notebook dibangun dengan bantuan Claude Code, yang juga menyusun draf awal insight dan deck, merapikan teks, dan melakukan review. Saya memilih dataset dan arah project, memeriksa dan menyetujui asumsi bisnis serta keputusan model final, mencocokkan angka di insight dan deck dengan output notebook, serta menilai temuan review dan memutuskan revisinya. Insight di bagian 12 sampai 15 dan 19 saya tulis ulang sendiri, lalu dicek ketepatan angkanya dengan bantuan AI. Rincian per bagian beserta cara verifikasinya ada di slide lampiran A1 pada deck.
+Project ini saya kerjakan dengan bantuan Claude Code (Anthropic). Pembagian kerjanya:
+
+**Yang saya kerjakan**
+- Memilih dataset PA-1A dan menentukan arah analisis.
+- Memeriksa dan menyetujui asumsi bisnis (kapasitas 20%, success rate, horizon, biaya penawaran) serta keputusan model final.
+- Mencocokkan angka di insight dan deck dengan output notebook.
+- Menilai temuan code review dan audit, lalu memutuskan revisi yang diterapkan.
+- Menulis insight bagian 12 sampai 15 dan 19: pemilihan model, threshold, evaluasi akhir, error analysis, dan pelajaran dari eksperimen.
+
+**Bantuan Claude Code**
+- Menyusun rencana kerja dan checklist rubrik dari panduan UAS.
+- Membangun kode notebook dan menjalankan eksperimen.
+- Menyusun draf awal insight dan deck dari output notebook.
+- Code review, penyuntingan bahasa, dan audit akhir terhadap rubrik, termasuk mengecek ketepatan angka pada insight yang saya tulis.
+
+Setiap hasil AI diverifikasi dengan menjalankan ulang notebook dan mencocokkan angkanya dengan output sel. Rincian per bagian beserta cara verifikasinya ada di slide lampiran A1 pada deck.
